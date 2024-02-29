@@ -1,0 +1,141 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button, input {
+  font: inherit;
+}
+
+html, body {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(31, 35, 36);
+  background-color: rgb(255, 255, 255);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1224px;
+}
+
+.header {
+  margin-top: 24px;
+  padding-top: 15px;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+}
+.head__logo {
+  width: 133px;
+  height: 33px;
+  display: block;
+}
+.head__icon {
+  width: 20px;
+  height: 20px;
+  border: 1px dashed rgb(150, 150, 150);
+}
+.head__icon_telegram {
+  margin-left: 69px;
+}
+.head__icon_whatsapp {
+  margin-left: 37px;
+}
+.head__login, .head__phone {
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+}
+.head__login {
+  margin-left: 99px;
+}
+.head__login p {
+  line-height: 17px;
+  color: rgb(150, 150, 150);
+  text-decoration: underline;
+}
+.head__phone {
+  margin-left: 75px;
+}
+.head__phone img {
+  padding: 2px;
+  width: 24px;
+  height: 24px;
+  border: 1px dashed rgb(150, 150, 150);
+}
+.head__phone p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.head__address {
+  margin-left: 76px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  color: rgb(150, 150, 150);
+}
+.head__shop-cart {
+  margin-left: 62px;
+  height: 24px;
+  width: 24px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,66 @@
+.header {
+  margin-top: 24px;
+  padding-top: 15px;
+}
+.head {
+  display: flex;
+  align-items: center;
+  &__logo {
+    width: 133px;
+    height: 33px;
+    display: block;
+  }
+  &__icon {
+    width: 20px;
+    height: 20px;
+    border: 1px dashed $gray;
+
+    &_telegram {
+      margin-left: 69px;
+    }
+    &_whatsapp {
+      margin-left: 37px;
+    }
+  }
+  &__login,
+  &__phone {
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+  }
+  &__login {
+    margin-left: 99px;
+    & p {
+      line-height: 17px;
+      color: $gray;
+      text-decoration: underline;
+    }
+  }
+  &__phone {
+    margin-left: 75px;
+    & img {
+      padding: 2px;
+      width: 24px;
+      height: 24px;
+      border: 1px dashed $gray;
+    }
+    & p {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 20px;
+    }
+  }
+
+  &__address {
+    margin-left: 76px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    color: $gray;
+  }
+  &__shop-cart {
+    margin-left: 62px;
+    height: 24px;
+    width: 24px;
+  }
+}
